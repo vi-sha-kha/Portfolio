@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- header / navigation -->
+    <div class="header__container">
+      <div class="header__name">Vishakha</div>
+      <div class="header__side__buttons">
+        <div class="header__about">About</div>
+        <div class="header__contact">Contact</div>
+        <div class="header__download">Download CV</div>
+      </div>
+    </div>
+
+    <!-- hero section -->
+    <div class="hero__container">
+      <div class="hero__text__container">
+        <div class="hero__text__static">Hello, I am a</div>
+        <div class="hero__text__dynamic">Student</div>
+      </div>
+      <div class="hero__picture__container">
+        <img src="./images/logo.png" class="hero__picture" alt="" />
+      </div>
+    </div>
+
+    <!-- about section -->
+    <div class="about__container">
+      <div class="about__header">About Me</div>
+      <div class="about__innercontainer">
+        <div class="about__education">
+          <img src="./images/education.png" alt="" class="about__icon" />
+          <div class="about__item__title">Education</div>
+          <div class="about__item__text">
+            I am a final year Computer Engineering student.
+          </div>
+        </div>
+        <div class="about__hobby">
+          <img src="./images/hobbies.png" alt="" class="about__icon" />
+          <div class="about__item__title">Hobbies</div>
+          <div class="about__item__text">
+            I like listening to music and watching movies.
+          </div>
+        </div>
+        <div class="about__skill">
+          <img src="./images/skills.png" alt="" class="about__icon" />
+          <div class="about__item__title">Skills</div>
+          <div class="about__item__text">
+            I am currently working on my technical skills.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- contact me -->
+    <div class="contact__container">
+      <div class="contact__title">Contact me</div>
+      <div class="contact__inner__form">
+        <img src="./images/message.png" alt="" />
+        <div class="contact__form__container">
+          <div class="contact__name__email">
+            <div class="contact__input__container">
+              <label class="contact__label">Name</label>
+              <input type="text" class="contact__name" placeholder="Name" />
+            </div>
+            <div class="contact__input__container">
+              <label class="contact__label">Email</label>
+              <input type="email" class="contact__email" placeholder="Email" />
+            </div>
+          </div>
+          <div class="contact__input__container2">
+            <label class="contact__label">Message</label>
+            <textarea
+              name="textarea"
+              class="contact__message"
+              placeholder="Write a message ..."
+            ></textarea>
+          </div>
+          <input type="submit" value="Submit" class="contact__submit" />
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer__container">
+     
+      <div class="social__container">
+        <a href="https://www.facebook.com/ch.vishakha.9" target="_blank">
+          <img src="./images/fb.png" alt="" class="footer__icon" />
+        </a>
+        <!-- <a href="" target="_blank">
+          <img src="./images/insta.png" alt="" class="footer__icon" />
+        </a> -->
+        <a
+          href="https://www.linkedin.com/in/vishakha-chaudhary-0b321a218/"
+          target="_blank"
+        >
+          <img src="./images/in.png" alt="" class="footer__icon" />
+        </a>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
